@@ -1,0 +1,63 @@
+.container{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+
+.container .row .form {
+  width: 250px;
+}
+
+.container .row .form .button{
+  color: white;
+  background-color: #979797;
+  height: 40px;
+  width: 250px;
+}
+
+.container .button{
+  text-align: right;
+}
+.container .box1 img{
+
+  width: 730px;
+  height:400px;
+
+}
+
+.container .box1 p{
+  color:#9C9CA0;
+}
+
+.container .box2 img{
+  width: 570px;
+  height:400px;
+}
+
+.container .box2 p{
+  color:#9C9CA0;
+}
+
+.container .box4 img{
+  width: 730px;
+  height:400px;
+}
+
+.container .box4 p{
+  color:#9C9CA0;
+}
+
+.container .box3 img{
+
+  width: 570px;
+  height:400px;
+}
+
+.container .box3 p{
+  color:#9C9CA0;
+}
+
+#headquarter .container .header{
+  text-align: left;
+}

@@ -1,0 +1,357 @@
+.full {
+    width: 100%;    
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #EDEFF1;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #78828D
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+	background: #FFFFFF;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	clear: both;
+	width: 100%;
+}
+.newsletter-box .btn {
+	border: medium none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0;
+	width: 100%;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+.social li {
+	background: none repeat scroll 0 0 #B5B5B5;
+	border: 2px solid #B5B5B5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #EDEFF1;
+}
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background: #2c3e50;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+.payments {
+	font-size: 1.5em;	
+}
+
+
+
+ .header {
+ 	text-align: center;
+ 	font-size: 50px;
+ 	line-height: 90px;
+ 	font-style: bold;
+ 	font-family: Ubuntu;
+ 	color: #2B3247;
+ 	margin-top: 110px;
+ }
+ .small-header {
+ 	opacity: 0.5;
+ 	color: #2B3247;
+ 	text-align: center;
+ 	font-size: 12px;
+ 	line-height: 14px;
+ 	font-style: medium;
+ 	font-family: Ubuntu;
+ }
+ .employers {
+ 	width: 179px;
+ 	height: 100px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	line-height: 100px;
+    text-align: right;
+ }
+ .fl {
+ 	overflow: overflow;
+ }
+ .candidates {
+ 	width: 191px;
+ 	height: 100px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	line-height: 100px;
+ 	opacity: 0.2;
+ 	color: #8C93AA;
+ }
+ .description {
+ 	text-align: left;
+ }
+ .description h2 {
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 38px;
+ 	line-height: 44px;
+ 	color: #2CA1F8;
+    text-decoration-line: underline;
+ }
+ .description h3 {
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 25px;
+ 	line-height: 29px;
+ 	color: #2B3247;
+ }
+ .description p {
+ 	font-family: Ubuntu;
+ 	font-style: Light;
+ 	font-size: 16px;
+ 	line-height: 24px;
+ 	opacity: 0.5;
+ 	color: #000000;
+ }
+ .find-btn {
+ 	border-radius: 25px;
+ 	
+ }
+ .btn-text {
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 13px;
+ 	text-align: center;
+ 	color: #000000;
+ }
+
+ @media only screen and (min-width: 765px) {
+ 	.mobile {
+ 		display: none;
+ 	}
+ 	.triangle1 {
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        border-top: 300px solid transparent;
+        border-right: 300px solid transparent;
+        border-left: 600px solid #8296AF;
+        border-bottom: 300px solid transparent;
+        opacity: 0.1;
+        transform: rotate(-6deg);
+        mix-blend-mode: normal;
+        margin-left: 60%;
+        margin-top: 10%;
+    }
+    .triangle2 {
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        border-top: 300px solid transparent;
+        border-right: 300px solid transparent;
+        border-left: 600px solid #8296AF;
+        border-bottom: 300px solid transparent;
+        opacity: 0.1;
+        transform: rotate(-55deg);
+        mix-blend-mode: normal;
+        margin-left: 55%;
+        margin-top: -10%;
+    }
+    .triangle3 {
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        border-top: 300px solid transparent;
+        border-right: 300px solid transparent;
+        border-left: 600px solid #8296AF;
+        border-bottom: 300px solid transparent;
+        opacity: 0.1;
+        transform: rotate(-45deg);
+        mix-blend-mode: normal;
+        margin-left: -30%;
+        margin-top: -20%;
+    }
+
+ }
+
+ @media only screen and (max-width: 765px) {
+
+ 	 .desktop {
+ 		display: none;
+ 	}
+
+ 	body {
+ 		background-image: linear-gradient(#2FB7F3, #769ADC, #9376DC);
+ 	}
+ 	.services {
+ 		padding-top: 23px;
+ 		padding-left: 20px;
+ 		font-family: Ubuntu;
+ 		font-style: bold;
+ 		font-size: 14px;
+ 		line-height: 29px;
+ 		text-align: left;
+ 		color: #FFFFFF;
+ 	}
+ 	h1 {
+ 		padding-left: 20px;
+ 		width: 60%;
+ 		font-family: Ubuntu;
+ 		font-style: bold;
+ 		font-size: 25px;
+ 		line-height: 29px;
+ 		text-align: left;
+ 		color: #FFFFFF;
+ 	}
+ 	.desc {
+ 		background: #FFFFFF;
+ 		margin-left: 10px;
+ 		margin-right: 10px;
+ 		margin-bottom: 15%;
+ 		margin-top: 10%;
+ 		height: 291px;
+ 	  text-align: center;
+ 	  outline-offset: 0px 2px;
+ 	  opacity: 0.9;
+ }
+ .desc h2 {
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	color: #2CA1F8;
+ 	padding-top: 20px;
+    text-decoration-line: underline;
+ }
+ .dese h3 {
+ 	padding-top: 37px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 16px;
+ 	color: #2B3247;
+ }
+ .desc p {
+ 	padding-top: 10px;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	text-align: center;
+ 	font-family: Ubuntu;
+ 	font-style: light;
+ 	font-size: 14px;
+ 	line-height: 20px;
+ 	opacity: 0.5;
+ 	color: #000000;
+ }
+ .find-btn {
+ 	background: transparent;
+ 	margin-left: 70%;
+ 	margin-top: -75px;
+ }
+ .btn-text {
+ 	color: #FFFFFF;
+ }
+ .emp {
+ 	color: #FFFFFF;
+ 	line-height: 18px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 16px;
+ 	margin-top: 15%;
+ }
+ .can {
+ 	color: #FFFFFF;
+ 	line-height: 18px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 16px;
+ 	opacity: 0.3;
+ 	margin-top: 15%;
+ }
