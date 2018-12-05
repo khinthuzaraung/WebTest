@@ -1,29 +1,132 @@
+/* container */
 .container{
-  width: 80%;
+  width: 100%;
   overflow: hidden;
   margin: auto;
 }
 
+/*Mobile Menu Side Bar*/
 
-.container .row .form {
-  width: 250px;
+.masthead{
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
 }
 
-.container .row .form .button{
+/*text over image*/
+.text-block {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block h3,h4{
+  font-family: Ubuntu;
+  font-weight: bolder;
+}
+
+.home-icon{
+  position:absolute;
+  top : 0px;
+  right: 10px;
+  color : grey;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-button1 {
+    position: absolute;
+    top: 623px;
+    left: 100px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.home-button2 {
+    position: absolute;
+    top: 680px;
+    left: 150px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+@media only screen and (max-width: 479px) and (min-width: 0px)
+.masthead {
+background:none;
+}
+
+
+#jobs #icons{
+    float: left;
+    display: inline-flex;
+    color: #c9cdd5 ;
+    font-size: 12px;
+
+}
+
+#jobs #icons #icon1{
+    float: left;
+
+
+}
+
+#jobs #icons #icon2{
+    float: left;
+
+}
+
+#jobs #icons #icon3{
+    float: left;
+
+}
+
+#training #psize{
+  width: 75%;
+  font-family: Ubuntu;
+}
+
+#training .button{
+  text-align: left;
+}
+
+/*mobile view slide*/
+.mobile{
   color: white;
-  background-color: #979797;
-  height: 40px;
-  width: 250px;
+  background-image: linear-gradient(to bottom right, #2FB7F3, #769ADC, #9376DC);
+}
+
+#thalesBlog{
+
 }
 
 .container .button{
   text-align: right;
 }
-.container .box1 img{
+
+.container .box1  img{
 
   width: 730px;
   height:400px;
 
+}
+
+/* text over image*/
+.container .box1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* text over image*/
+.container .box1 .text1{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .container .box1 p{
@@ -34,17 +137,21 @@
   width: 570px;
   height:400px;
 }
+/* text over image*/
+.container .box2{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* text over image*/
+.container .box2 .text2{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .container .box2 p{
-  color:#9C9CA0;
-}
-
-.container .box4 img{
-  width: 730px;
-  height:400px;
-}
-
-.container .box4 p{
   color:#9C9CA0;
 }
 
@@ -54,10 +161,64 @@
   height:400px;
 }
 
+/* text over image*/
+.container .box3{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* text over image*/
+.container .box3 .text3{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .container .box3 p{
   color:#9C9CA0;
 }
 
+.container .box4 img{
+  width: 730px;
+  height: 400px;
+}
+
+/* text over image*/
+.container .box4{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* text over image*/
+.container .box4 .text4{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container .box4 p{
+  color:#9C9CA0;
+}
+
+
+
 #headquarter .container .header{
   text-align: left;
+}
+
+
+/*contact form*/
+.container .row .form {
+  width: 250px;
+}
+
+/*contact form*/
+.container .row .form .button{
+  color: white;
+  background-color: #979797;
+  height: 40px;
+  width: 250px;
 }

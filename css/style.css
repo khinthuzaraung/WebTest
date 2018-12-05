@@ -1,5 +1,5 @@
 .full {
-    width: 100%;    
+    width: 100%;
 }
 .gap {
 	height: 30px;
@@ -8,7 +8,7 @@
 	display: block;
 }
 .footer {
-	
+	background: white;
 	height: auto;
 	padding-bottom: 30px;
 	position: relative;
@@ -24,27 +24,32 @@
 }
 .footer h3 {
 	border-bottom: 1px solid #BAC1C8;
-	color: #54697E;
+	color: black;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 27px;
 	padding: 40px 0 10px;
 	text-transform: uppercase;
 }
+
+.footer p{
+  font-size: 13px;
+}
+
 .footer ul {
 	font-size: 13px;
 	list-style-type: none;
 	margin-left: 0;
 	padding-left: 0;
 	margin-top: 15px;
-	color: #7F8C8D;
+	color: black;
 }
 .footer ul li a {
 	padding: 0 0 5px 0;
 	display: block;
 }
 .footer a {
-	color: #78828D
+	color: black;
 }
 .supportLi h4 {
 	font-size: 20px;
@@ -131,13 +136,13 @@
 	padding-top: 6px;
 }
 .payments {
-	font-size: 1.5em;	
+	font-size: 1.5em;
 }
 
 
 
  .header {
- 	text-align: center;
+ 	/*text-align: center;*/
  	font-size: 50px;
  	line-height: 90px;
  	font-style: bold;
@@ -204,7 +209,7 @@
  }
  .find-btn {
  	border-radius: 25px;
- 	
+
  }
  .btn-text {
  	font-family: Ubuntu;
@@ -213,7 +218,6 @@
  	text-align: center;
  	color: #000000;
  }
-
  .conbox {
     position: relative;
     
@@ -258,6 +262,7 @@
  @media only screen and (min-width: 765px) {
  	.mobile {
  		display: none;
+    background-image: url("../img/mobile-bg.png");
  	}
  	.triangle1 {
         height: 0px;
@@ -396,3 +401,6 @@
  	opacity: 0.3;
  	margin-top: 15%;
  }
+#ieatmaps {
+  height: 100%;
+}
