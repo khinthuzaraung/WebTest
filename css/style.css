@@ -259,10 +259,18 @@
   font-weight: bold;
 }
 
- @media only screen and (min-width: 765px) {
+ @media only screen and (min-width: 768px) {
+
  	.mobile {
  		display: none;
-    background-image: url("../img/mobile-bg.png");
+    background-image: url("../img/mobile-bg.png") ;
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
  	}
  	.triangle1 {
         height: 0px;
@@ -339,15 +347,24 @@
  		color: #FFFFFF;
  	}
  	.desc {
+ 			/*width:273px;
+ 			height:261px;
+ 			
+ 			margin-left: 20px;
+ 			box-shadow: 10px -10px 5px #CCC; 
+ 			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+ 			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+ 			-o-box-shadow: 0 0 10px rgba(0,0,0,0.6);*/
  		background: #FFFFFF;
  		margin-left: 10px;
  		margin-right: 10px;
  		margin-bottom: 15%;
  		margin-top: 10%;
  		height: 291px;
- 	  text-align: center;
- 	  outline-offset: 0px 2px;
- 	  opacity: 0.9;
+ 	    text-align: center;
+ 	    outline-offset: 0px 2px;
+ 	    opacity: 0.9;
+
  }
  .desc h2 {
  	font-family: Ubuntu;
@@ -365,6 +382,45 @@
  	color: #2B3247;
  }
  .desc p {
+ 	padding-top: 10px;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	text-align: center;
+ 	font-family: Ubuntu;
+ 	font-style: light;
+ 	font-size: 14px;
+ 	line-height: 20px;
+ 	opacity: 0.5;
+ 	color: #000000;
+ }
+ .shadow {
+ 			width:273px;
+ 			height:290px;
+ 			
+ 			margin-left: 20px;
+ 			box-shadow: 10px -10px 5px #CCC; 
+ 			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+ 			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+ 			-o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+ 			
+
+ }
+ .shadow h2 {
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	color: #2CA1F8;
+ 	padding-top: 20px;
+    text-decoration-line: underline;
+ }
+ .shadow h3 {
+ 	padding-top: 37px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 16px;
+ 	color: #2B3247;
+ }
+ .shadow p {
  	padding-top: 10px;
  	padding-right: 15px;
  	padding-left: 15px;

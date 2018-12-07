@@ -57,7 +57,9 @@
 
 @media only screen and (max-width: 479px) and (min-width: 0px)
 .masthead {
-background:none;
+background-image: url(../img/bg.png);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 
@@ -222,3 +224,4 @@ background:none;
   height: 40px;
   width: 250px;
 }
+
